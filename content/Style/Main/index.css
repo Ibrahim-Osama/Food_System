@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+    font-size: 20px;
+
+}
+.bg-logo-color
+{
+    background-color: rgb(242,242,242);
+}
+.nav-text
+{
+    color: rgb(158,154,156);
+}
+.bg-img
+{
+    background-image: url("../../Imgs/Header/home-bg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.burgermove
+{
+    position: relative;
+    animation: burgermove 1s infinite;
+    -webkit-animation: burgermove 3s ease-out infinite;
+}
+
+@keyframes burgermove
+{
+    0% {top: 0px;}
+    50% {top: 50px;}
+    100% {top: 0px;}
+   
+}
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+.slide {
+    --color: #f30404;
+    --hover: #66c887;
+}
+
+
+
+@media (max-width:320px)
+{
+    header p , h1
+    {
+        font-size: 16px;
+    }
+}
+@media (max-width:399px)
+{
+    header p , h1
+    {
+        font-size: 15px;
+    }
+}
